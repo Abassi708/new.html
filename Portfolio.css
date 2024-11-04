@@ -1,0 +1,83 @@
+header{
+    background:linear-gradient(to right ,rgb(228, 171, 101), rgb(228, 171, 101));
+    color:white;
+    text-align: center;
+    padding:40px 20px
+
+}
+header h1{
+    font-size: 3rem;
+    margin:0;
+    letter-spacing: 2px;
+    
+}
+header p{
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+nav{
+    background-color: yellow;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgb(132, 125, 125) ;
+    position:sticky;
+    top:0;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin:0;
+    padding:0;
+}
+nav ul li {
+    margin:0 20px;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    transition: background-color rgb(92, 92, 230);
+}
+nav ul li a:hover{
+    background-color: rgba(255, 255,255, 0.2);
+    border-radius: 8px;
+}
+section{
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin:0 auto;
+}
+h2 {
+    color:#333;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+h2:after{
+    content: " ";
+    display: block;
+    width:60px;
+    height: 4px;
+    background-color: red;
+    margin: 10px auto;
+
+
+}
+h2:before{
+    content: " ";
+    display: block;
+    width:60px;
+    height: 4px;
+    background-color: red;
+    margin: 10px auto;
+}
+p{
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: center;
+    max-width: 800px;
+    margin:0 auto;
+}
